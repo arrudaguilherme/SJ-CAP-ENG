@@ -20,11 +20,11 @@ Repositório para desenvolvimento do projeto de capacitação do SouJunior.
 ## Contribuição
 Por favor, siga as diretrizes de contribuição do projeto.
 
-1. Faça um fork do projeto.
-2. Crie uma branch para sua contribuição (git checkout -b junior/seu-nome).
-3. Faça commit de suas alterações seguindo commits semânticos (git commit -m "propósito: o que seu commit altera?").
-4. Faça push da sua branch para o seu fork (git push origin junior/seu-nome).
-5. Crie um novo Pull Request.
+1. Solicite a criação de uma branch específica para você ao [adm](https://www.linkedin.com/in/pedrohfogacas/).
+2. Faça um fork do projeto.
+4. Faça commit de suas alterações seguindo commits semânticos (git commit -m "propósito: o que seu commit altera?").
+5. Faça push da sua branch para o seu fork (git push origin junior/seu-nome).
+6. Crie um novo Pull Request.
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
