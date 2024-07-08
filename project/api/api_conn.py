@@ -48,7 +48,18 @@ def search_artist(token,artist_name):
     
     return json_result[0]
 
+def get_songs_by_artist(token,artist_id):
+    url = f"https://api.spotify.com/v1/artists/{artist_id}/top-tracks?country=BR"
+    headers = get_auth_header(token)
+    result = get(url=url,headers=headers)
+    json_result = json.loads(result.content)["tracks"]
+    return json_result
 
 token = get_token()
 result = search_artist(token,"Ed Sheeran")
-print(result["name"])
+artist_id = result["id"]
+songs = get_songs_by_artist(token,artist_id)
+print(songs)
+
+for i, song in enumerate(songs):
+    print(f"{i+1}. {song["name"]}")
